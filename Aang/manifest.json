@@ -1,0 +1,14 @@
+{
+    "Name": "Aang",
+    "Author": "bananafortpipi",
+    "Description": "Avatar Aang has stopped by in Pelican Town to take a break from training",
+    "Version": "1.0.0",
+    "UniqueID": "bananafortpipi",
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "UpdateKeys": [
+      "Nexus: "
+    ]
+   
+  }

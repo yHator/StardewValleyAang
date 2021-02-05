@@ -1,0 +1,157 @@
+{
+    "Format": "1.4.0",
+    "Changes": [
+      {
+        "LogName": "NPC Manifestation",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "FromFile": null,
+        "Entries": {
+          "Aang": "adult/polite/outgoing/positive/male/non-datable/null/Other/summer 7//LeahHouse 12 7 2/Aang"
+        }
+      },
+      {
+        "LogName": "NPC Gift Tastes",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": null,
+        "Entries": {
+          "Aang": "@! This is amazing!/445 74/Thanks, @!/395 346 613 197 198 421/Oh, I'm sorry but I don't like this/88 252 90 222/I don't even like this.../233 276 236/Thanks!/ "
+        }
+      },
+      {
+        "LogName": "NPC Sprite",
+        "Action": "Load",
+        "Target": "Characters/Aang",
+        "FromFile": "assets/image/spritesheet.png",
+        "Entries": null
+      },
+      {
+        "LogName": "Dialogue",
+        "Action": "Load",
+        "Target": "Characters/Dialogue/Aang",
+        "FromFile": "assets/dialogue/Dialogue.json",
+        "Entries": null
+      },
+      {
+        "LogName": "NPC Portrait",
+        "Action": "Load",
+        "Target": "Portraits/Aang",
+        "FromFile": "assets/image/portrait.png",
+        "Entries": null
+      },
+      {
+        "LogName": "Schedule",
+        "Action": "Load",
+        "Target": "Characters/schedules/Aang",
+        "FromFile": "assets/schedules/Schedule.json",
+        "Entries": null
+      },
+  
+      { 
+        "Action": "EditData",
+        "Target": "data/festivals/spring13",
+        "Entries": {
+          "Aang": "The monks used to hide eggs too!"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring13",
+        "Entries": {
+          "Aang": "I used to hunt for eggs in the Southern Air Temple."
+        },
+        "When": {
+          "Spouse:Aang": "True"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "Aang": "I'm sorry, there's actually someone else I wanted to dance with."
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "Aang": "Feel free to dance with someone else"
+        },
+        "When": {
+          "Spouse:Aang": "True"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "Aang": "I'm hungry! I hope I can sneak some soup to Appa",
+          "Aang_spouse": "Did we put anything good in there..? Don't tell anyone."
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer28",
+        "Entries": {
+          "Aang": "Woah! That looks so cool",
+          "Aang_spouse": "I wonder if Katara would like this!"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall16",
+        "Entries": {
+          "Aang": "Look at the cute pig!$h",
+          "Aang_spouse": "I love animals!"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall27",
+        "Entries": {
+          "Aang": "Now...that's scary",
+          "Aang_spouse": "I wonder if I'll brave the haunted maze"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter8",
+        "Entries": {
+          "Aang": "It's so cold up here! Maybe I should firebend a fire."
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter8",
+        "Entries": {
+          "Aang": "Brrr, it's cold, but it's beautiful!"
+        },
+        "When": {
+          "Spouse:Aang": "True"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter25",
+        "Entries": {
+          "Aang": "I've never really gotten to celebrate holidays, so this is so cool!"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter25",
+        "Entries": {
+          "Aang": "What if they don't like my gift??"
+        },
+        "When": {
+          "Spouse_Aang": "True"
+        }
+      }
+  
+     
+  
+  
+    ]
+  }
+  
